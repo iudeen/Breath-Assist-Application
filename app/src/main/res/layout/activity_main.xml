@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+   <LinearLayout
+       android:layout_margin="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="fill_parent"
+       android:background="@color/colorGreen"
+       android:id="@+id/kidLayout"
+       android:layout_weight="1"
+       android:orientation="vertical">
+       <TextView
+           android:id="@+id/kidsText"
+           android:layout_margin="10dp"
+           android:textSize="25sp"
+           android:textColor="@android:color/white"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:text="Kids"
+           android:layout_weight="1"
+           android:textAlignment="center"/>
+       <TextView
+           android:layout_margin="10dp"
+           android:textSize="25sp"
+           android:textColor="@android:color/white"
+           android:id="@+id/kidsVal"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:textAlignment="center"
+           android:layout_weight="1"
+           android:text="@string/placeholder"/>
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorGreen"
+        android:id="@+id/adultLayout"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:id="@+id/adultText"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Adult"
+            android:layout_weight="1"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:id="@+id/adultVal"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAlignment="center"
+            android:text="@string/placeholder"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorGreen"
+        android:id="@+id/agedLayout"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/agedText"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Aged"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:textColor="@android:color/white" />
+        <TextView
+            android:id="@+id/agedVal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAlignment="center"
+            android:text="@string/placeholder"
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

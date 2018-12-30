@@ -1,0 +1,26 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:id="@+id/warning"
+        android:textSize="22sp"
+        android:text="Are you sure you want to 
+        clear the Server?"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/warning"
+        android:text="@string/clear"
+        android:onClick="clearBtn1"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

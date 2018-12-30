@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sensor Firebase</string>
+    <string name="placeholder">Atmospheric Pressure</string>
+    <string name="pressureBtn">View Atmospheric Pressure</string>
+    <string name="viewPressure">View Atmospheric Pressure</string>
+    <string name="clear">Clear Server</string>
+</resources>
